@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  font-size: 12px;
+  padding: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page-title {
+  text-align: left;
+  flex: 1;
+  font-size: 20px;
+  font-weight: 300;
+  color: #0047b5;
+}
+
+/*  Table */
+
+table {
+  padding: 1rem;
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 1px solid #dadada;
+  border-left: 1px solid #dadada;
+  padding: 1rem;
+}
+table th {
+  color: grey;
+  font-weight: normal
+}
+table th,
+table tr td {
+  padding: 5px;
+  border-top: 1px solid #dadada;
+  border-right: 1px solid #dadada
+}
+table tr:nth-child(even) {
+  background: #f7f6ff;
+}
+
+/*  filters */
+.filter-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 1px solid #dadada
+}
+
+.filter-actions form,
+.filter-actions div {
+  padding: 1rem;
+  border-right: 1px solid #dadada;
+}
+.filter-actions div:last-child,
+.filter-actions div:first-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.filter-actions label {
+  color: grey;
+}
+
+/*  totals display */
+
+.trade-totals {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0rem 1rem 1rem;
+  font-size: 13px;
+}
+
+.trade-totals div {
+  flex: 1;
+  display: flex;
+  padding-top: 10px;
+}
+
+.trade-totals .digit-values {
+  font-weight: bold;
+  padding-left: 20px;
+  color: #0047b5;
+  width: 100px;
+  background: #f4f2ff;
+  text-align: right;
+  margin-left: 5px;
+}
