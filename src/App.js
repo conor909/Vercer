@@ -19,7 +19,7 @@ function App() {
   const [ priceFilter, setPriceFilter ] = useState(null)
 
   function fetchTrades() {
-    axios({ method: 'GET', url: 'http://localhost:30001/trades' })
+    axios({ method: 'GET', url: 'http://localhost:3001/trades' })
       .then(res => {
         if (res.status === 200) setTrades(res.data)
         else alert('Error fetching trades, refresh to try again')
