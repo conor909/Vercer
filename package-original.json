@@ -1,0 +1,14 @@
+{
+  "name": "vercer-take-home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dummy-api": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.15.0"
+  }
+}
