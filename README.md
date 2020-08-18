@@ -2,8 +2,9 @@
 
 ## Setup
 
-- Run `npm install` / `yarn install`
-- Run `npm run start-dummy-api` / `yarn start-dummy-api`
+- Run `yarn install`
+- Run `yarn start-dummy-api`
+- Run `yarn start`
 
 This will run an http server with a single endpoint `http://localhost:3000/trades`. This is a dataset representing buying and selling of products, typically oil, gas, etc.
 
